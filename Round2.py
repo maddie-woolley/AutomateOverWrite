@@ -6,7 +6,7 @@ from arcgis.gis import GIS
 ############################ BEGIN ASSIGNING VARIABLES ############################
 # Set the path to the project
 prjFolder = r"C:\Users\mlw0429\Desktop\OverWriteTrial"
-prjPath = os.path.join(prjfolder, Script.aprx)
+prjPath = os.path.join(prjfolder, OverWriteTrial.aprx)
 
 # Set login credentials (user name is case sensitive, fyi)
 portal = "https://untgis.maps.arcgis.com/" # or use another portal
